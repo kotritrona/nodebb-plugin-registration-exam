@@ -1,6 +1,6 @@
 {
-	"id": "nodebb-plugin-kotritest",
-	"url": "https://127.0.0.1",
+	"id": "nodebb-plugin-registration-exam",
+	"url": "https://github.com/kotritrona/nodebb-plugin-registration-exam",
 	"library": "./library.js",
 	"hooks": [
 		{
