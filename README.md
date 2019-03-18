@@ -10,6 +10,8 @@ screenshots:
 
 ![screenshot_1.png](https://i.imgur.com/0YEwyqA.png)
 
+(below are in darkly skin)
+
 ![screenshot_2.png](https://i.imgur.com/qu8BBa4.png)
 
 ![screenshot_3.png](https://i.imgur.com/1ZGpJiw.png)
