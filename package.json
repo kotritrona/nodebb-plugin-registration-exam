@@ -1,0 +1,26 @@
+{
+  "name": "nodebb-plugin-registration-exam",
+  "version": "0.4.7",
+  "description": "Adds an exam page in your forum, so any new user must pass the exam to register.",
+  "main": "library.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "registration",
+    "exam",
+    "examination",
+    "quiz",
+    "kotri"
+  ],
+  "nbbpm": {
+    "compatibility": "1.12.0"
+  },
+  "author": "Kotri Lv.223",
+  "license": "MIT"
+}

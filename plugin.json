@@ -1,0 +1,33 @@
+{
+	"id": "nodebb-plugin-kotritest",
+	"url": "https://127.0.0.1",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "static:app.load", "method": "init"
+		},
+		{
+			"hook": "filter:register.build", "method": "addInvitationInput"
+		},
+		{
+			"hook": "filter:register.check", "method": "checkRegister"
+		},
+		{
+			"hook": "filter:admin.header.build", "method": "addAdminNavigation"
+		}
+	],
+	"staticDirs": {
+		"static": "./static"
+	},
+	"less": [
+		"static/style.less"
+	],
+	"scripts": [
+		"static/lib/main.js"
+	],
+	"acpScripts": [
+		"static/lib/admin.js"
+	],
+	"languages": "public/language",
+	"templates": "static/templates"
+}

@@ -1,0 +1,72 @@
+/* Place any LESS in here */
+.exam-questions {
+    display: none;
+    position: relative;
+}
+.exam-question {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.exam-question-title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.exam-question-option {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+.exam-question-input {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.exam-question > .row {
+    width: 100%;
+    height: auto;
+}
+.exam-prev {
+    float:left;
+}
+.exam-next, .exam-submit {
+    float:right;
+}
+.exam-start {
+    margin-top: 2rem;
+}
+.exam-intro {
+    text-align: center;
+}
+.exam-result, .exam-timer, .exam-error {
+    display: none;
+    text-align: center;
+}
+.exam-score-number, .exam-invitation-code, .exam-timer-number {
+    font-weight: bold;
+}
+
+/***** ADMIN STYLES *****/
+
+.exam-admin-question .row {
+
+    border-bottom: solid 1px grey;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+
+}
+.exam-admin-add-wrapper {
+    padding-bottom: 2rem;
+}
+.exam-admin-question textarea.form-control {
+    /* how to set the height 100% normally lol */
+    height: 10rem;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
+.exam-admin-below-lead {
+    padding-bottom: 2rem;
+}
+.exam-admin-hidden-region {
+    display: none;
+}
