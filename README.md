@@ -1,6 +1,6 @@
 # NodeBB registration exam
 
-version: 0.4.8 | nodeBB compatibility: ~1.12.0
+version: 0.4.9 | nodeBB compatibility: ~1.12.0
 
 Adds a exam system (/exam) to NodeBB, so new users must pass this exam before they can register an account.
 
