@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-registration-exam",
-  "version": "0.4.7",
+  "version": "0.4.8",
   "description": "Adds an exam page in your forum, so any new user must pass the exam to register.",
   "main": "library.js",
   "directories": {
@@ -14,12 +14,18 @@
     "plugin",
     "registration",
     "exam",
-    "examination",
-    "quiz",
-    "kotri"
+    "examination"
   ],
   "nbbpm": {
     "compatibility": "1.12.0"
+  },
+  "homepage": "https://github.com/kotritrona/nodebb-plugin-registration-exam#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kotritrona/nodebb-plugin-registration-exam.git"
+  },
+  "dependencies": {
+    "async": "^2.0.1"
   },
   "author": "Kotri Lv.223",
   "license": "MIT"
