@@ -47,7 +47,7 @@ plugin.addAdminNavigation = function(header, callback) {
 plugin.addInvitationInput = function(params, callback) {
 	// hook:register.build
 	var captcha = {
-		label: '[[exam:register-info]] (<a href="/exam" target="_blank">[[exam:exam-link]]</a>)',
+		label: '[[exam:register-info]] (<a href="exam" target="_blank">[[exam:exam-link]]</a>)',
 		html: '<input class="form-control" name="exam-invitation-input" id="exam-invitation-input" /><br />'
 	};
 
