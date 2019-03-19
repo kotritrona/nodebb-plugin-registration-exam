@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-registration-exam",
-  "version": "0.4.9",
+  "version": "0.4.10",
   "description": "Adds an exam page in your forum, so any new user must pass the exam to register.",
   "main": "library.js",
   "directories": {
