@@ -15,3 +15,12 @@ screenshots:
 ![screenshot_2.png](https://i.imgur.com/qu8BBa4.png)
 
 ![screenshot_3.png](https://i.imgur.com/1ZGpJiw.png)
+
+update history:
+
+0.4.10
+- fixed register link when installing nodebb under a path
+- removed footer for being stuck into the question
+
+0.4.9 and before
+- data lost in time
